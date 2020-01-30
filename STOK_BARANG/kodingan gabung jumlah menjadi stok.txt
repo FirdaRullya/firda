@@ -1,0 +1,8 @@
+
+CREATE TRIGGER updatestok
+AFTER INSERT ON pembelian
+FOR EACH ROW
+BEGIN
+UPDATE barang SET stok_brg = stok_brg + NEW.jml_beli
+WHERE id = NEW.id_brg;
+END

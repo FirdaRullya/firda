@@ -1,0 +1,805 @@
+Microsoft Windows [Version 10.0.18362.535]
+(c) 2019 Microsoft Corporation. All rights reserved.
+
+C:\Users\Lenovo>composer
+'composer' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Lenovo>cd \xampp
+
+C:\xampp>composer
+   ______
+  / ____/___  ____ ___  ____  ____  ________  _____
+ / /   / __ \/ __ `__ \/ __ \/ __ \/ ___/ _ \/ ___/
+/ /___/ /_/ / / / / / / /_/ / /_/ (__  )  __/ /
+\____/\____/_/ /_/ /_/ .___/\____/____/\___/_/
+                    /_/
+Composer version 1.9.1 2019-11-01 17:20:17
+
+Usage:
+  command [options] [arguments]
+
+Options:
+  -h, --help                     Display this help message
+  -q, --quiet                    Do not output any message
+  -V, --version                  Display this application version
+      --ansi                     Force ANSI output
+      --no-ansi                  Disable ANSI output
+  -n, --no-interaction           Do not ask any interactive question
+      --profile                  Display timing and memory usage information
+      --no-plugins               Whether to disable plugins.
+  -d, --working-dir=WORKING-DIR  If specified, use the given directory as working directory.
+      --no-cache                 Prevent use of the cache
+  -v|vv|vvv, --verbose           Increase the verbosity of messages: 1 for normal output, 2 for more verbose output and 3 for debug
+
+Available commands:
+  about                Shows the short information about Composer.
+  archive              Creates an archive of this composer package.
+  browse               Opens the package's repository URL or homepage in your browser.
+  check-platform-reqs  Check that platform requirements are satisfied.
+  clear-cache          Clears composer's internal package cache.
+  clearcache           Clears composer's internal package cache.
+  config               Sets config options.
+  create-project       Creates new project from a package into given directory.
+  depends              Shows which packages cause the given package to be installed.
+  diagnose             Diagnoses the system to identify common errors.
+  dump-autoload        Dumps the autoloader.
+  dumpautoload         Dumps the autoloader.
+  exec                 Executes a vendored binary/script.
+  global               Allows running commands in the global composer dir ($COMPOSER_HOME).
+  help                 Displays help for a command
+  home                 Opens the package's repository URL or homepage in your browser.
+  i                    Installs the project dependencies from the composer.lock file if present, or falls back on the composer.json.
+  info                 Shows information about packages.
+  init                 Creates a basic composer.json file in current directory.
+  install              Installs the project dependencies from the composer.lock file if present, or falls back on the composer.json.
+  licenses             Shows information about licenses of dependencies.
+  list                 Lists commands
+  outdated             Shows a list of installed packages that have updates available, including their latest version.
+  prohibits            Shows which packages prevent the given package from being installed.
+  remove               Removes a package from the require or require-dev.
+  require              Adds required packages to your composer.json and installs them.
+  run                  Runs the scripts defined in composer.json.
+  run-script           Runs the scripts defined in composer.json.
+  search               Searches for packages.
+  self-update          Updates composer.phar to the latest version.
+  selfupdate           Updates composer.phar to the latest version.
+  show                 Shows information about packages.
+  status               Shows a list of locally modified packages, for packages installed from source.
+  suggests             Shows package suggestions.
+  u                    Upgrades your dependencies to the latest version according to composer.json, and updates the composer.lock file.
+  update               Upgrades your dependencies to the latest version according to composer.json, and updates the composer.lock file.
+  upgrade              Upgrades your dependencies to the latest version according to composer.json, and updates the composer.lock file.
+  validate             Validates a composer.json and composer.lock.
+  why                  Shows which packages cause the given package to be installed.
+  why-not              Shows which packages prevent the given package from being installed.
+
+C:\xampp>cd htdocs
+
+C:\xampp\htdocs>composer global require laravel/installer
+Changed current directory to C:/Users/Lenovo/AppData/Roaming/Composer
+Content-Length mismatch, received 602716 bytes out of the expected 1007196
+http://repo.packagist.org could not be fully loaded, package information was loaded from the local cache and may be out of date
+
+
+  [Composer\Downloader\TransportException]
+  The "http://repo.packagist.org/p/provider-2019-10%24f776486a02aa474f653eeeb746ff243609dd2b5cdbf4cea8f9826dda888af2bf
+  .json" file could not be downloaded: php_network_getaddresses: getaddrinfo failed: No such host is known.
+  failed to open stream: php_network_getaddresses: getaddrinfo failed: No such host is known.
+
+
+require [--dev] [--prefer-source] [--prefer-dist] [--no-progress] [--no-suggest] [--no-update] [--no-scripts] [--update-no-dev] [--update-with-dependencies] [--update-with-all-dependencies] [--ignore-platform-reqs] [--prefer-stable] [--prefer-lowest] [--sort-packages] [-o|--optimize-autoloader] [-a|--classmap-authoritative] [--apcu-autoloader] [--] [<packages>]...
+
+
+C:\xampp\htdocs>composer global require laravel/installer
+Changed current directory to C:/Users/Lenovo/AppData/Roaming/Composer
+Content-Length mismatch, received 49376 bytes out of the expected 1007196
+http://repo.packagist.org could not be fully loaded, package information was loaded from the local cache and may be out of date
+
+
+  [Composer\Downloader\TransportException]
+  The "http://repo.packagist.org/p/provider-2019-10%24f776486a02aa474f653eeeb746ff243609dd2b5cdbf4cea8f9826dda888af2bf
+  .json" file could not be downloaded: php_network_getaddresses: getaddrinfo failed: No such host is known.
+  failed to open stream: php_network_getaddresses: getaddrinfo failed: No such host is known.
+
+
+require [--dev] [--prefer-source] [--prefer-dist] [--no-progress] [--no-suggest] [--no-update] [--no-scripts] [--update-no-dev] [--update-with-dependencies] [--update-with-all-dependencies] [--ignore-platform-reqs] [--prefer-stable] [--prefer-lowest] [--sort-packages] [-o|--optimize-autoloader] [-a|--classmap-authoritative] [--apcu-autoloader] [--] [<packages>]...
+
+
+C:\xampp\htdocs>composer global require laravel/installer
+Changed current directory to C:/Users/Lenovo/AppData/Roaming/Composer
+The "http://repo.packagist.org/p/provider-2015%2475def0035a521039bff40edb6d49842f25b080118fa4e45d9ce8d1bc3ca0bb4e.json" file could not be downloaded: php_network_getaddresses: getaddrinfo failed: No such host is known.
+failed to open stream: php_network_getaddresses: getaddrinfo failed: No such host is known.
+http://repo.packagist.org could not be fully loaded, package information was loaded from the local cache and may be out of date
+
+
+  [Composer\Downloader\TransportException]
+  Your configuration does not allow connections to http://kuotahabis.tri.co.id/frontpage/. See https://getcomposer.org
+  /doc/06-config.md#secure-http for details.
+
+
+require [--dev] [--prefer-source] [--prefer-dist] [--no-progress] [--no-suggest] [--no-update] [--no-scripts] [--update-no-dev] [--update-with-dependencies] [--update-with-all-dependencies] [--ignore-platform-reqs] [--prefer-stable] [--prefer-lowest] [--sort-packages] [-o|--optimize-autoloader] [-a|--classmap-authoritative] [--apcu-autoloader] [--] [<packages>]...
+
+
+C:\xampp\htdocs>composer global require laravel/installer
+Changed current directory to C:/Users/Lenovo/AppData/Roaming/Composer
+The "http://repo.packagist.org/p/provider-2016%243aa23a955c4cb97c73ac5147d48ee2f65db70813c104527575ed08405fd49304.json" file could not be downloaded: php_network_getaddresses: getaddrinfo failed: No such host is known.
+failed to open stream: php_network_getaddresses: getaddrinfo failed: No such host is known.
+http://repo.packagist.org could not be fully loaded, package information was loaded from the local cache and may be out of date
+
+
+  [Composer\Downloader\TransportException]
+  The "http://repo.packagist.org/p/provider-2019-10%24d0c62b28bcd7b87ca786b6b379c0eddc34983c1a2ecee1de0a57656284048d8e
+  .json" file could not be downloaded: php_network_getaddresses: getaddrinfo failed: No such host is known.
+  failed to open stream: php_network_getaddresses: getaddrinfo failed: No such host is known.
+
+
+require [--dev] [--prefer-source] [--prefer-dist] [--no-progress] [--no-suggest] [--no-update] [--no-scripts] [--update-no-dev] [--update-with-dependencies] [--update-with-all-dependencies] [--ignore-platform-reqs] [--prefer-stable] [--prefer-lowest] [--sort-packages] [-o|--optimize-autoloader] [-a|--classmap-authoritative] [--apcu-autoloader] [--] [<packages>]...
+
+
+C:\xampp\htdocs>composer global require laravel/installer
+Changed current directory to C:/Users/Lenovo/AppData/Roaming/Composer
+Using version ^3.0 for laravel/installer
+./composer.json has been updated
+Loading composer repositories with package information
+Updating dependencies (including require-dev)
+Package operations: 0 installs, 1 update, 0 removals
+  - Updating laravel/installer (v1.5.0 => v3.0.1): Downloading (100%)
+Writing lock file
+Generating autoload files
+
+C:\xampp\htdocs>laravel new blog
+Crafting application...
+Loading composer repositories with package information
+Installing dependencies (including require-dev) from lock file
+Package operations: 85 installs, 0 updates, 0 removals
+  - Installing doctrine/inflector (1.3.1): Downloading (100%)
+  - Installing doctrine/lexer (1.2.0): Downloading (100%)
+  - Installing dragonmantank/cron-expression (v2.3.0): Loading from cache
+  - Installing erusev/parsedown (1.7.3): Loading from cache
+  - Installing symfony/polyfill-ctype (v1.13.1): Downloading (100%)
+  - Installing phpoption/phpoption (1.7.2): Downloading (100%)
+  - Installing vlucas/phpdotenv (v3.6.0): Loading from cache
+  - Installing symfony/css-selector (v5.0.2): Downloading (100%)
+  - Installing tijsverkoyen/css-to-inline-styles (2.2.2): Downloading (100%)
+  - Installing symfony/polyfill-php72 (v1.13.1): Downloading (100%)
+  - Installing symfony/polyfill-mbstring (v1.13.1): Downloading (100%)
+  - Installing symfony/var-dumper (v4.4.2): Downloading (100%)
+  - Installing symfony/routing (v4.4.2): Downloading (100%)
+  - Installing symfony/process (v4.4.2): Downloading (100%)
+  - Installing symfony/polyfill-php73 (v1.13.1): Downloading (100%)
+  - Installing symfony/polyfill-intl-idn (v1.13.1): Downloading (100%)
+  - Installing symfony/mime (v5.0.2): Downloading (100%)
+  - Installing symfony/http-foundation (v4.4.2): Downloading (100%)
+  - Installing symfony/event-dispatcher-contracts (v1.1.7): Loading from cache
+  - Installing symfony/event-dispatcher (v4.4.2): Downloading (100%)
+  - Installing psr/log (1.1.2): Downloading (100%)
+  - Installing symfony/debug (v4.4.2): Downloading (100%)
+  - Installing symfony/error-handler (v4.4.2): Downloading (100%)
+  - Installing symfony/http-kernel (v4.4.2): Downloading (100%)
+  - Installing symfony/finder (v4.4.2): Downloading (100%)
+  - Installing psr/container (1.0.0): Loading from cache
+  - Installing symfony/service-contracts (v2.0.1): Downloading (100%)
+  - Installing symfony/console (v4.4.2): Downloading (100%)
+  - Installing symfony/polyfill-iconv (v1.13.1): Downloading (100%)
+  - Installing egulias/email-validator (2.1.12): Downloading (100%)
+  - Installing swiftmailer/swiftmailer (v6.2.3): Downloading (100%)
+  - Installing paragonie/random_compat (v9.99.99): Loading from cache
+  - Installing ramsey/uuid (3.9.2): Downloading (100%)
+  - Installing psr/simple-cache (1.0.1): Loading from cache
+  - Installing opis/closure (3.5.1): Downloading (100%)
+  - Installing symfony/translation-contracts (v2.0.1): Downloading (100%)
+  - Installing symfony/translation (v4.4.2): Downloading (100%)
+  - Installing nesbot/carbon (2.28.0): Downloading (100%)
+  - Installing monolog/monolog (2.0.2): Downloading (100%)
+  - Installing league/flysystem (1.0.61): Downloading (100%)
+  - Installing laravel/framework (v6.9.0): Downloading (100%)
+  - Installing fideloper/proxy (4.2.2): Downloading (100%)
+  - Installing jakub-onderka/php-console-color (v0.2): Loading from cache
+  - Installing nikic/php-parser (v4.3.0): Downloading (100%)
+  - Installing jakub-onderka/php-console-highlighter (v0.4): Loading from cache
+  - Installing dnoegel/php-xdg-base-dir (v0.1.1): Downloading (100%)
+  - Installing psy/psysh (v0.9.12): Downloading (100%)
+  - Installing laravel/tinker (v2.0.0): Downloading (100%)
+  - Installing scrivo/highlight.php (v9.17.1.0): Downloading (100%)
+  - Installing filp/whoops (2.5.1): Downloading (100%)
+  - Installing facade/ignition-contracts (1.0.0): Loading from cache
+  - Installing facade/flare-client-php (1.3.1): Downloading (100%)
+  - Installing facade/ignition (1.13.0): Downloading (100%)
+  - Installing fzaninotto/faker (v1.9.1): Downloading (100%)
+  - Installing sebastian/recursion-context (3.0.0): Loading from cache
+  - Installing sebastian/exporter (3.1.2): Loading from cache
+  - Installing sebastian/diff (3.0.2): Loading from cache
+  - Installing sebastian/comparator (3.0.2): Loading from cache
+  - Installing hamcrest/hamcrest-php (v2.0.0): Loading from cache
+  - Installing mockery/mockery (1.3.0): Downloading (failed)
+Downloading (100%)
+  - Installing nunomaduro/collision (v3.0.1): Loading from cache
+  - Installing webmozart/assert (1.6.0): Downloading (100%)
+  - Installing phpdocumentor/reflection-common (2.0.0): Loading from cache
+  - Installing phpdocumentor/type-resolver (1.0.1): Loading from cache
+  - Installing phpdocumentor/reflection-docblock (4.3.3): Downloading (100%)
+  - Installing phpunit/php-token-stream (3.1.1): Loading from cache
+  - Installing sebastian/version (2.0.1): Loading from cache
+  - Installing sebastian/type (1.1.3): Loading from cache
+  - Installing sebastian/resource-operations (2.0.1): Loading from cache
+  - Installing sebastian/object-reflector (1.1.1): Loading from cache
+  - Installing sebastian/object-enumerator (3.0.3): Loading from cache
+  - Installing sebastian/global-state (3.0.0): Loading from cache
+  - Installing sebastian/environment (4.2.3): Downloading (100%)
+  - Installing phpunit/php-timer (2.1.2): Loading from cache
+  - Installing phpunit/php-text-template (1.2.1): Loading from cache
+  - Installing phpunit/php-file-iterator (2.0.2): Loading from cache
+  - Installing theseer/tokenizer (1.1.3): Loading from cache
+  - Installing sebastian/code-unit-reverse-lookup (1.0.1): Loading from cache
+  - Installing phpunit/php-code-coverage (7.0.10): Downloading (100%)
+  - Installing doctrine/instantiator (1.3.0): Downloading (100%)
+  - Installing phpspec/prophecy (1.10.1): Downloading (100%)
+  - Installing phar-io/version (2.0.1): Loading from cache
+  - Installing phar-io/manifest (1.0.3): Loading from cache
+  - Installing myclabs/deep-copy (1.9.4): Downloading (100%)
+  - Installing phpunit/phpunit (8.5.0): Downloading (100%)
+symfony/var-dumper suggests installing ext-intl (To show region name in time zone dump)
+symfony/routing suggests installing doctrine/annotations (For using the annotation loader)
+symfony/routing suggests installing symfony/config (For using the all-in-one router or any loader)
+symfony/routing suggests installing symfony/expression-language (For using expression matching)
+symfony/routing suggests installing symfony/yaml (For using the YAML loader)
+symfony/polyfill-intl-idn suggests installing ext-intl (For best performance)
+symfony/event-dispatcher-contracts suggests installing psr/event-dispatcher
+symfony/event-dispatcher suggests installing symfony/dependency-injection
+symfony/http-kernel suggests installing symfony/browser-kit
+symfony/http-kernel suggests installing symfony/config
+symfony/http-kernel suggests installing symfony/dependency-injection
+symfony/service-contracts suggests installing symfony/service-implementation
+symfony/console suggests installing symfony/lock
+egulias/email-validator suggests installing ext-intl (PHP Internationalization Libraries are required to use the SpoofChecking validation)
+swiftmailer/swiftmailer suggests installing ext-intl (Needed to support internationalized email addresses)
+swiftmailer/swiftmailer suggests installing true/punycode (Needed to support internationalized email addresses, if ext-intl is not installed)
+paragonie/random_compat suggests installing ext-libsodium (Provides a modern crypto API that can be used to generate random bytes.)
+ramsey/uuid suggests installing ext-libsodium (Provides the PECL libsodium extension for use with the SodiumRandomGenerator)
+ramsey/uuid suggests installing ext-uuid (Provides the PECL UUID extension for use with the PeclUuidTimeGenerator and PeclUuidRandomGenerator)
+ramsey/uuid suggests installing moontoast/math (Provides support for converting UUID to 128-bit integer (in string form).)
+ramsey/uuid suggests installing paragonie/random-lib (Provides RandomLib for use with the RandomLibAdapter)
+ramsey/uuid suggests installing ramsey/uuid-console (A console application for generating UUIDs with ramsey/uuid)
+ramsey/uuid suggests installing ramsey/uuid-doctrine (Allows the use of Ramsey\Uuid\Uuid as Doctrine field type.)
+symfony/translation suggests installing symfony/config
+symfony/translation suggests installing symfony/yaml
+monolog/monolog suggests installing aws/aws-sdk-php (Allow sending log messages to AWS services like DynamoDB)
+monolog/monolog suggests installing doctrine/couchdb (Allow sending log messages to a CouchDB server)
+monolog/monolog suggests installing elasticsearch/elasticsearch (Allow sending log messages to an Elasticsearch server via official client)
+monolog/monolog suggests installing ext-amqp (Allow sending log messages to an AMQP server (1.0+ required))
+monolog/monolog suggests installing ext-mongodb (Allow sending log messages to a MongoDB server (via driver))
+monolog/monolog suggests installing graylog2/gelf-php (Allow sending log messages to a GrayLog2 server)
+monolog/monolog suggests installing mongodb/mongodb (Allow sending log messages to a MongoDB server (via library))
+monolog/monolog suggests installing php-amqplib/php-amqplib (Allow sending log messages to an AMQP server using php-amqplib)
+monolog/monolog suggests installing php-console/php-console (Allow sending log messages to Google Chrome)
+monolog/monolog suggests installing rollbar/rollbar (Allow sending log messages to Rollbar)
+monolog/monolog suggests installing ruflin/elastica (Allow sending log messages to an Elastic Search server)
+league/flysystem suggests installing league/flysystem-aws-s3-v2 (Allows you to use S3 storage with AWS SDK v2)
+league/flysystem suggests installing league/flysystem-aws-s3-v3 (Allows you to use S3 storage with AWS SDK v3)
+league/flysystem suggests installing league/flysystem-azure (Allows you to use Windows Azure Blob storage)
+league/flysystem suggests installing league/flysystem-cached-adapter (Flysystem adapter decorator for metadata caching)
+league/flysystem suggests installing league/flysystem-eventable-filesystem (Allows you to use EventableFilesystem)
+league/flysystem suggests installing league/flysystem-rackspace (Allows you to use Rackspace Cloud Files)
+league/flysystem suggests installing league/flysystem-sftp (Allows you to use SFTP server storage via phpseclib)
+league/flysystem suggests installing league/flysystem-webdav (Allows you to use WebDAV storage)
+league/flysystem suggests installing league/flysystem-ziparchive (Allows you to use ZipArchive adapter)
+league/flysystem suggests installing spatie/flysystem-dropbox (Allows you to use Dropbox storage)
+league/flysystem suggests installing srmklive/flysystem-dropbox-v2 (Allows you to use Dropbox storage for PHP 5 applications)
+laravel/framework suggests installing aws/aws-sdk-php (Required to use the SQS queue driver, DynamoDb failed job storage and SES mail driver (^3.0).)
+laravel/framework suggests installing doctrine/dbal (Required to rename columns and drop SQLite columns (^2.6).)
+laravel/framework suggests installing ext-memcached (Required to use the memcache cache driver.)
+laravel/framework suggests installing ext-pcntl (Required to use all features of the queue worker.)
+laravel/framework suggests installing ext-posix (Required to use all features of the queue worker.)
+laravel/framework suggests installing ext-redis (Required to use the Redis cache and queue drivers.)
+laravel/framework suggests installing guzzlehttp/guzzle (Required to use the Mailgun mail driver and the ping methods on schedules (^6.0).)
+laravel/framework suggests installing league/flysystem-aws-s3-v3 (Required to use the Flysystem S3 driver (^1.0).)
+laravel/framework suggests installing league/flysystem-cached-adapter (Required to use the Flysystem cache (^1.0).)
+laravel/framework suggests installing league/flysystem-sftp (Required to use the Flysystem SFTP driver (^1.0).)
+laravel/framework suggests installing moontoast/math (Required to use ordered UUIDs (^1.1).)
+laravel/framework suggests installing pda/pheanstalk (Required to use the beanstalk queue driver (^4.0).)
+laravel/framework suggests installing psr/http-message (Required to allow Storage::put to accept a StreamInterface (^1.0).)
+laravel/framework suggests installing pusher/pusher-php-server (Required to use the Pusher broadcast driver (^4.0).)
+laravel/framework suggests installing symfony/cache (Required to PSR-6 cache bridge (^4.3.4).)
+laravel/framework suggests installing symfony/psr-http-message-bridge (Required to use PSR-7 bridging features (^1.2).)
+laravel/framework suggests installing wildbit/swiftmailer-postmark (Required to use Postmark mail driver (^3.0).)
+psy/psysh suggests installing ext-pcntl (Enabling the PCNTL extension makes PsySH a lot happier :))
+psy/psysh suggests installing ext-pdo-sqlite (The doc command requires SQLite to work.)
+psy/psysh suggests installing ext-posix (If you have PCNTL, you'll want the POSIX extension as well.)
+psy/psysh suggests installing hoa/console (A pure PHP readline implementation. You'll want this if your PHP install doesn't already support readline or libedit.)
+filp/whoops suggests installing whoops/soap (Formats errors as SOAP responses)
+facade/ignition suggests installing laravel/telescope (^2.0)
+sebastian/global-state suggests installing ext-uopz (*)
+sebastian/environment suggests installing ext-posix (*)
+phpunit/php-code-coverage suggests installing ext-xdebug (^2.7.2)
+phpunit/phpunit suggests installing ext-soap (*)
+phpunit/phpunit suggests installing ext-xdebug (*)
+phpunit/phpunit suggests installing phpunit/php-invoker (^2.0.0)
+Generating optimized autoload files
+> @php -r "file_exists('.env') || copy('.env.example', '.env');"
+> @php artisan key:generate --ansi
+Application key set successfully.
+> Illuminate\Foundation\ComposerScripts::postAutoloadDump
+> @php artisan package:discover --ansi
+Discovered Package: facade/ignition
+Discovered Package: fideloper/proxy
+Discovered Package: laravel/tinker
+Discovered Package: nesbot/carbon
+Discovered Package: nunomaduro/collision
+Package manifest generated successfully.
+Application ready! Build something amazing.
+
+C:\xampp\htdocs>composer create-project --prefer-dist laravel/laravel pegawai
+Installing laravel/laravel (v6.8.0)
+  - Installing laravel/laravel (v6.8.0): Downloading (100%)
+Created project in pegawai
+> @php -r "file_exists('.env') || copy('.env.example', '.env');"
+Loading composer repositories with package information
+Updating dependencies (including require-dev)
+Package operations: 85 installs, 0 updates, 0 removals
+  - Installing symfony/polyfill-ctype (v1.13.1): Loading from cache
+  - Installing phpoption/phpoption (1.7.2): Loading from cache
+  - Installing vlucas/phpdotenv (v3.6.0): Loading from cache
+  - Installing symfony/css-selector (v5.0.2): Loading from cache
+  - Installing tijsverkoyen/css-to-inline-styles (2.2.2): Loading from cache
+  - Installing symfony/polyfill-php72 (v1.13.1): Loading from cache
+  - Installing symfony/polyfill-mbstring (v1.13.1): Loading from cache
+  - Installing symfony/var-dumper (v4.4.2): Loading from cache
+  - Installing symfony/routing (v4.4.2): Loading from cache
+  - Installing symfony/process (v4.4.2): Loading from cache
+  - Installing psr/log (1.1.2): Loading from cache
+  - Installing symfony/polyfill-php73 (v1.13.1): Loading from cache
+  - Installing symfony/polyfill-intl-idn (v1.13.1): Loading from cache
+  - Installing symfony/mime (v5.0.2): Loading from cache
+  - Installing symfony/http-foundation (v4.4.2): Loading from cache
+  - Installing symfony/event-dispatcher-contracts (v1.1.7): Loading from cache
+  - Installing psr/container (1.0.0): Loading from cache
+  - Installing symfony/event-dispatcher (v4.4.2): Loading from cache
+  - Installing symfony/debug (v4.4.2): Loading from cache
+  - Installing symfony/error-handler (v4.4.2): Loading from cache
+  - Installing symfony/http-kernel (v4.4.2): Loading from cache
+  - Installing symfony/finder (v4.4.2): Loading from cache
+  - Installing symfony/service-contracts (v2.0.1): Loading from cache
+  - Installing symfony/console (v4.4.2): Loading from cache
+  - Installing symfony/polyfill-iconv (v1.13.1): Loading from cache
+  - Installing doctrine/lexer (1.2.0): Loading from cache
+  - Installing egulias/email-validator (2.1.12): Loading from cache
+  - Installing swiftmailer/swiftmailer (v6.2.3): Loading from cache
+  - Installing paragonie/random_compat (v9.99.99): Loading from cache
+  - Installing ramsey/uuid (3.9.2): Loading from cache
+  - Installing psr/simple-cache (1.0.1): Loading from cache
+  - Installing opis/closure (3.5.1): Loading from cache
+  - Installing symfony/translation-contracts (v2.0.1): Loading from cache
+  - Installing symfony/translation (v4.4.2): Loading from cache
+  - Installing nesbot/carbon (2.28.0): Loading from cache
+  - Installing monolog/monolog (2.0.2): Loading from cache
+  - Installing league/flysystem (1.0.61): Loading from cache
+  - Installing erusev/parsedown (1.7.3): Loading from cache
+  - Installing dragonmantank/cron-expression (v2.3.0): Loading from cache
+  - Installing doctrine/inflector (1.3.1): Loading from cache
+  - Installing laravel/framework (v6.9.0): Loading from cache
+  - Installing fideloper/proxy (4.2.2): Loading from cache
+  - Installing jakub-onderka/php-console-color (v0.2): Loading from cache
+  - Installing jakub-onderka/php-console-highlighter (v0.4): Loading from cache
+  - Installing nikic/php-parser (v4.3.0): Loading from cache
+  - Installing dnoegel/php-xdg-base-dir (v0.1.1): Loading from cache
+  - Installing psy/psysh (v0.9.12): Loading from cache
+  - Installing laravel/tinker (v2.0.0): Loading from cache
+  - Installing scrivo/highlight.php (v9.17.1.0): Loading from cache
+  - Installing filp/whoops (2.5.1): Loading from cache
+  - Installing facade/ignition-contracts (1.0.0): Loading from cache
+  - Installing facade/flare-client-php (1.3.1): Loading from cache
+  - Installing facade/ignition (1.13.0): Loading from cache
+  - Installing fzaninotto/faker (v1.9.1): Loading from cache
+  - Installing sebastian/diff (3.0.2): Loading from cache
+  - Installing sebastian/recursion-context (3.0.0): Loading from cache
+  - Installing sebastian/exporter (3.1.2): Loading from cache
+  - Installing sebastian/comparator (3.0.2): Loading from cache
+  - Installing hamcrest/hamcrest-php (v2.0.0): Loading from cache
+  - Installing mockery/mockery (1.3.0): Loading from cache
+  - Installing nunomaduro/collision (v3.0.1): Loading from cache
+  - Installing sebastian/version (2.0.1): Loading from cache
+  - Installing sebastian/type (1.1.3): Loading from cache
+  - Installing sebastian/resource-operations (2.0.1): Loading from cache
+  - Installing sebastian/object-reflector (1.1.1): Loading from cache
+  - Installing sebastian/object-enumerator (3.0.3): Loading from cache
+  - Installing sebastian/global-state (3.0.0): Loading from cache
+  - Installing sebastian/environment (4.2.3): Loading from cache
+  - Installing phpunit/php-timer (2.1.2): Loading from cache
+  - Installing phpunit/php-text-template (1.2.1): Loading from cache
+  - Installing phpunit/php-file-iterator (2.0.2): Loading from cache
+  - Installing phpunit/php-token-stream (3.1.1): Loading from cache
+  - Installing theseer/tokenizer (1.1.3): Loading from cache
+  - Installing sebastian/code-unit-reverse-lookup (1.0.1): Loading from cache
+  - Installing phpunit/php-code-coverage (7.0.10): Loading from cache
+  - Installing phpdocumentor/reflection-common (2.0.0): Loading from cache
+  - Installing phpdocumentor/type-resolver (1.0.1): Loading from cache
+  - Installing webmozart/assert (1.6.0): Loading from cache
+  - Installing phpdocumentor/reflection-docblock (4.3.3): Loading from cache
+  - Installing doctrine/instantiator (1.3.0): Loading from cache
+  - Installing phpspec/prophecy (1.10.1): Loading from cache
+  - Installing phar-io/version (2.0.1): Loading from cache
+  - Installing phar-io/manifest (1.0.3): Loading from cache
+  - Installing myclabs/deep-copy (1.9.4): Loading from cache
+  - Installing phpunit/phpunit (8.5.0): Loading from cache
+symfony/var-dumper suggests installing ext-intl (To show region name in time zone dump)
+symfony/routing suggests installing symfony/config (For using the all-in-one router or any loader)
+symfony/routing suggests installing symfony/yaml (For using the YAML loader)
+symfony/routing suggests installing symfony/expression-language (For using expression matching)
+symfony/routing suggests installing doctrine/annotations (For using the annotation loader)
+symfony/polyfill-intl-idn suggests installing ext-intl (For best performance)
+symfony/event-dispatcher-contracts suggests installing psr/event-dispatcher
+symfony/event-dispatcher suggests installing symfony/dependency-injection
+symfony/http-kernel suggests installing symfony/browser-kit
+symfony/http-kernel suggests installing symfony/config
+symfony/http-kernel suggests installing symfony/dependency-injection
+symfony/service-contracts suggests installing symfony/service-implementation
+symfony/console suggests installing symfony/lock
+egulias/email-validator suggests installing ext-intl (PHP Internationalization Libraries are required to use the SpoofChecking validation)
+swiftmailer/swiftmailer suggests installing ext-intl (Needed to support internationalized email addresses)
+swiftmailer/swiftmailer suggests installing true/punycode (Needed to support internationalized email addresses, if ext-intl is not installed)
+paragonie/random_compat suggests installing ext-libsodium (Provides a modern crypto API that can be used to generate random bytes.)
+ramsey/uuid suggests installing ext-libsodium (Provides the PECL libsodium extension for use with the SodiumRandomGenerator)
+ramsey/uuid suggests installing ext-uuid (Provides the PECL UUID extension for use with the PeclUuidTimeGenerator and PeclUuidRandomGenerator)
+ramsey/uuid suggests installing moontoast/math (Provides support for converting UUID to 128-bit integer (in string form).)
+ramsey/uuid suggests installing ramsey/uuid-console (A console application for generating UUIDs with ramsey/uuid)
+ramsey/uuid suggests installing ramsey/uuid-doctrine (Allows the use of Ramsey\Uuid\Uuid as Doctrine field type.)
+ramsey/uuid suggests installing paragonie/random-lib (Provides RandomLib for use with the RandomLibAdapter)
+symfony/translation suggests installing symfony/config
+symfony/translation suggests installing symfony/yaml
+monolog/monolog suggests installing graylog2/gelf-php (Allow sending log messages to a GrayLog2 server)
+monolog/monolog suggests installing doctrine/couchdb (Allow sending log messages to a CouchDB server)
+monolog/monolog suggests installing ruflin/elastica (Allow sending log messages to an Elastic Search server)
+monolog/monolog suggests installing elasticsearch/elasticsearch (Allow sending log messages to an Elasticsearch server via official client)
+monolog/monolog suggests installing php-amqplib/php-amqplib (Allow sending log messages to an AMQP server using php-amqplib)
+monolog/monolog suggests installing ext-amqp (Allow sending log messages to an AMQP server (1.0+ required))
+monolog/monolog suggests installing ext-mongodb (Allow sending log messages to a MongoDB server (via driver))
+monolog/monolog suggests installing mongodb/mongodb (Allow sending log messages to a MongoDB server (via library))
+monolog/monolog suggests installing aws/aws-sdk-php (Allow sending log messages to AWS services like DynamoDB)
+monolog/monolog suggests installing rollbar/rollbar (Allow sending log messages to Rollbar)
+monolog/monolog suggests installing php-console/php-console (Allow sending log messages to Google Chrome)
+league/flysystem suggests installing league/flysystem-eventable-filesystem (Allows you to use EventableFilesystem)
+league/flysystem suggests installing league/flysystem-rackspace (Allows you to use Rackspace Cloud Files)
+league/flysystem suggests installing league/flysystem-azure (Allows you to use Windows Azure Blob storage)
+league/flysystem suggests installing league/flysystem-webdav (Allows you to use WebDAV storage)
+league/flysystem suggests installing league/flysystem-aws-s3-v2 (Allows you to use S3 storage with AWS SDK v2)
+league/flysystem suggests installing league/flysystem-aws-s3-v3 (Allows you to use S3 storage with AWS SDK v3)
+league/flysystem suggests installing spatie/flysystem-dropbox (Allows you to use Dropbox storage)
+league/flysystem suggests installing srmklive/flysystem-dropbox-v2 (Allows you to use Dropbox storage for PHP 5 applications)
+league/flysystem suggests installing league/flysystem-cached-adapter (Flysystem adapter decorator for metadata caching)
+league/flysystem suggests installing league/flysystem-sftp (Allows you to use SFTP server storage via phpseclib)
+league/flysystem suggests installing league/flysystem-ziparchive (Allows you to use ZipArchive adapter)
+laravel/framework suggests installing ext-memcached (Required to use the memcache cache driver.)
+laravel/framework suggests installing ext-pcntl (Required to use all features of the queue worker.)
+laravel/framework suggests installing ext-posix (Required to use all features of the queue worker.)
+laravel/framework suggests installing ext-redis (Required to use the Redis cache and queue drivers.)
+laravel/framework suggests installing aws/aws-sdk-php (Required to use the SQS queue driver, DynamoDb failed job storage and SES mail driver (^3.0).)
+laravel/framework suggests installing doctrine/dbal (Required to rename columns and drop SQLite columns (^2.6).)
+laravel/framework suggests installing guzzlehttp/guzzle (Required to use the Mailgun mail driver and the ping methods on schedules (^6.0).)
+laravel/framework suggests installing league/flysystem-aws-s3-v3 (Required to use the Flysystem S3 driver (^1.0).)
+laravel/framework suggests installing league/flysystem-cached-adapter (Required to use the Flysystem cache (^1.0).)
+laravel/framework suggests installing league/flysystem-sftp (Required to use the Flysystem SFTP driver (^1.0).)
+laravel/framework suggests installing moontoast/math (Required to use ordered UUIDs (^1.1).)
+laravel/framework suggests installing pda/pheanstalk (Required to use the beanstalk queue driver (^4.0).)
+laravel/framework suggests installing psr/http-message (Required to allow Storage::put to accept a StreamInterface (^1.0).)
+laravel/framework suggests installing pusher/pusher-php-server (Required to use the Pusher broadcast driver (^4.0).)
+laravel/framework suggests installing symfony/cache (Required to PSR-6 cache bridge (^4.3.4).)
+laravel/framework suggests installing symfony/psr-http-message-bridge (Required to use PSR-7 bridging features (^1.2).)
+laravel/framework suggests installing wildbit/swiftmailer-postmark (Required to use Postmark mail driver (^3.0).)
+psy/psysh suggests installing ext-pcntl (Enabling the PCNTL extension makes PsySH a lot happier :))
+psy/psysh suggests installing ext-posix (If you have PCNTL, you'll want the POSIX extension as well.)
+psy/psysh suggests installing ext-pdo-sqlite (The doc command requires SQLite to work.)
+psy/psysh suggests installing hoa/console (A pure PHP readline implementation. You'll want this if your PHP install doesn't already support readline or libedit.)
+filp/whoops suggests installing whoops/soap (Formats errors as SOAP responses)
+facade/ignition suggests installing laravel/telescope (^2.0)
+sebastian/global-state suggests installing ext-uopz (*)
+sebastian/environment suggests installing ext-posix (*)
+phpunit/php-code-coverage suggests installing ext-xdebug (^2.7.2)
+phpunit/phpunit suggests installing phpunit/php-invoker (^2.0.0)
+phpunit/phpunit suggests installing ext-soap (*)
+phpunit/phpunit suggests installing ext-xdebug (*)
+Writing lock file
+Generating optimized autoload files
+> Illuminate\Foundation\ComposerScripts::postAutoloadDump
+> @php artisan package:discover --ansi
+Discovered Package: facade/ignition
+Discovered Package: fideloper/proxy
+Discovered Package: laravel/tinker
+Discovered Package: nesbot/carbon
+Discovered Package: nunomaduro/collision
+Package manifest generated successfully.
+> @php artisan key:generate --ansi
+Application key set successfully.
+
+C:\xampp\htdocs>cd pegawai
+
+C:\xampp\htdocs\pegawai>php artisan serve
+Laravel development server started: http://127.0.0.1:8000
+[Mon Dec 23 11:11:21 2019] 127.0.0.1:62410 [200]: /favicon.ico
+[Mon Dec 23 11:26:28 2019] 127.0.0.1:62421 [200]: /favicon.ico
+[Mon Dec 23 11:28:21 2019] 127.0.0.1:62422 [200]: /favicon.ico
+[Mon Dec 23 11:28:55 2019] 127.0.0.1:62424 [200]: /favicon.ico
+^C
+C:\xampp\htdocs\pegawai>php artisan make:migration create_pegawai_table -create=pegawai
+
+
+  The "-c" option does not exist.
+
+
+
+C:\xampp\htdocs\pegawai>php artisan make:migration create_pegawai_table
+Created Migration: 2019_12_23_044446_create_pegawai_table
+
+C:\xampp\htdocs\pegawai>php artisan migrate
+Migration table created successfully.
+Migrating: 2014_10_12_000000_create_users_table
+Migrated:  2014_10_12_000000_create_users_table (0.57 seconds)
+Migrating: 2014_10_12_100000_create_password_resets_table
+Migrated:  2014_10_12_100000_create_password_resets_table (0.59 seconds)
+Migrating: 2019_08_19_000000_create_failed_jobs_table
+Migrated:  2019_08_19_000000_create_failed_jobs_table (0.25 seconds)
+Migrating: 2019_12_23_044446_create_pegawai_table
+Migrated:  2019_12_23_044446_create_pegawai_table (0.2 seconds)
+
+C:\xampp\htdocs\pegawai>cd
+C:\xampp\htdocs\pegawai
+
+C:\xampp\htdocs\pegawai>cd\xampp
+
+C:\xampp>htdocs
+'htdocs' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\xampp>htdocs\
+'htdocs\' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\xampp>cd htdocs
+
+C:\xampp\htdocs>composer global require laravel/installer
+Changed current directory to C:/Users/Lenovo/AppData/Roaming/Composer
+Using version ^3.0 for laravel/installer
+./composer.json has been updated
+Loading composer repositories with package information
+Updating dependencies (including require-dev)
+Nothing to install or update
+Generating autoload files
+
+C:\xampp\htdocs>laravel new blog
+
+In NewCommand.php line 110:
+
+  Application already exists!
+
+
+new [--dev] [--auth] [-f|--force] [--] [<name>]
+
+
+C:\xampp\htdocs>composer create-project --prefer-dist laravel/laravel absensi
+Installing laravel/laravel (v6.8.0)
+  - Installing laravel/laravel (v6.8.0): Loading from cache
+Created project in absensi
+> @php -r "file_exists('.env') || copy('.env.example', '.env');"
+Loading composer repositories with package information
+Updating dependencies (including require-dev)
+Package operations: 85 installs, 0 updates, 0 removals
+  - Installing symfony/polyfill-ctype (v1.13.1): Loading from cache
+  - Installing phpoption/phpoption (1.7.2): Loading from cache
+  - Installing vlucas/phpdotenv (v3.6.0): Loading from cache
+  - Installing symfony/css-selector (v5.0.2): Loading from cache
+  - Installing tijsverkoyen/css-to-inline-styles (2.2.2): Loading from cache
+  - Installing symfony/polyfill-php72 (v1.13.1): Loading from cache
+  - Installing symfony/polyfill-mbstring (v1.13.1): Loading from cache
+  - Installing symfony/var-dumper (v4.4.2): Loading from cache
+  - Installing symfony/routing (v4.4.2): Loading from cache
+  - Installing symfony/process (v4.4.2): Loading from cache
+  - Installing psr/log (1.1.2): Loading from cache
+  - Installing symfony/polyfill-php73 (v1.13.1): Loading from cache
+  - Installing symfony/polyfill-intl-idn (v1.13.1): Loading from cache
+  - Installing symfony/mime (v5.0.2): Loading from cache
+  - Installing symfony/http-foundation (v4.4.2): Loading from cache
+  - Installing symfony/event-dispatcher-contracts (v1.1.7): Loading from cache
+  - Installing psr/container (1.0.0): Loading from cache
+  - Installing symfony/event-dispatcher (v4.4.2): Loading from cache
+  - Installing symfony/debug (v4.4.2): Loading from cache
+  - Installing symfony/error-handler (v4.4.2): Loading from cache
+  - Installing symfony/http-kernel (v4.4.2): Loading from cache
+  - Installing symfony/finder (v4.4.2): Loading from cache
+  - Installing symfony/service-contracts (v2.0.1): Loading from cache
+  - Installing symfony/console (v4.4.2): Loading from cache
+  - Installing symfony/polyfill-iconv (v1.13.1): Loading from cache
+  - Installing doctrine/lexer (1.2.0): Loading from cache
+  - Installing egulias/email-validator (2.1.12): Loading from cache
+  - Installing swiftmailer/swiftmailer (v6.2.3): Loading from cache
+  - Installing paragonie/random_compat (v9.99.99): Loading from cache
+  - Installing ramsey/uuid (3.9.2): Loading from cache
+  - Installing psr/simple-cache (1.0.1): Loading from cache
+  - Installing opis/closure (3.5.1): Loading from cache
+  - Installing symfony/translation-contracts (v2.0.1): Loading from cache
+  - Installing symfony/translation (v4.4.2): Loading from cache
+  - Installing nesbot/carbon (2.28.0): Loading from cache
+  - Installing monolog/monolog (2.0.2): Loading from cache
+  - Installing league/flysystem (1.0.61): Loading from cache
+  - Installing erusev/parsedown (1.7.3): Loading from cache
+  - Installing dragonmantank/cron-expression (v2.3.0): Loading from cache
+  - Installing doctrine/inflector (1.3.1): Loading from cache
+  - Installing laravel/framework (v6.9.0): Loading from cache
+  - Installing fideloper/proxy (4.2.2): Loading from cache
+  - Installing jakub-onderka/php-console-color (v0.2): Loading from cache
+  - Installing jakub-onderka/php-console-highlighter (v0.4): Loading from cache
+  - Installing nikic/php-parser (v4.3.0): Loading from cache
+  - Installing dnoegel/php-xdg-base-dir (v0.1.1): Loading from cache
+  - Installing psy/psysh (v0.9.12): Loading from cache
+  - Installing laravel/tinker (v2.0.0): Loading from cache
+  - Installing scrivo/highlight.php (v9.17.1.0): Loading from cache
+  - Installing filp/whoops (2.5.1): Loading from cache
+  - Installing facade/ignition-contracts (1.0.0): Loading from cache
+  - Installing facade/flare-client-php (1.3.1): Loading from cache
+  - Installing facade/ignition (1.13.0): Loading from cache
+  - Installing fzaninotto/faker (v1.9.1): Loading from cache
+  - Installing sebastian/diff (3.0.2): Loading from cache
+  - Installing sebastian/recursion-context (3.0.0): Loading from cache
+  - Installing sebastian/exporter (3.1.2): Loading from cache
+  - Installing sebastian/comparator (3.0.2): Loading from cache
+  - Installing hamcrest/hamcrest-php (v2.0.0): Loading from cache
+  - Installing mockery/mockery (1.3.0): Loading from cache
+  - Installing nunomaduro/collision (v3.0.1): Loading from cache
+  - Installing sebastian/version (2.0.1): Loading from cache
+  - Installing sebastian/type (1.1.3): Loading from cache
+  - Installing sebastian/resource-operations (2.0.1): Loading from cache
+  - Installing sebastian/object-reflector (1.1.1): Loading from cache
+  - Installing sebastian/object-enumerator (3.0.3): Loading from cache
+  - Installing sebastian/global-state (3.0.0): Loading from cache
+  - Installing sebastian/environment (4.2.3): Loading from cache
+  - Installing phpunit/php-timer (2.1.2): Loading from cache
+  - Installing phpunit/php-text-template (1.2.1): Loading from cache
+  - Installing phpunit/php-file-iterator (2.0.2): Loading from cache
+  - Installing phpunit/php-token-stream (3.1.1): Loading from cache
+  - Installing theseer/tokenizer (1.1.3): Loading from cache
+  - Installing sebastian/code-unit-reverse-lookup (1.0.1): Loading from cache
+  - Installing phpunit/php-code-coverage (7.0.10): Loading from cache
+  - Installing phpdocumentor/reflection-common (2.0.0): Loading from cache
+  - Installing phpdocumentor/type-resolver (1.0.1): Loading from cache
+  - Installing webmozart/assert (1.6.0): Loading from cache
+  - Installing phpdocumentor/reflection-docblock (4.3.3): Loading from cache
+  - Installing doctrine/instantiator (1.3.0): Loading from cache
+  - Installing phpspec/prophecy (1.10.1): Loading from cache
+  - Installing phar-io/version (2.0.1): Loading from cache
+  - Installing phar-io/manifest (1.0.3): Loading from cache
+  - Installing myclabs/deep-copy (1.9.4): Loading from cache
+  - Installing phpunit/phpunit (8.5.0): Loading from cache
+symfony/var-dumper suggests installing ext-intl (To show region name in time zone dump)
+symfony/routing suggests installing symfony/config (For using the all-in-one router or any loader)
+symfony/routing suggests installing symfony/yaml (For using the YAML loader)
+symfony/routing suggests installing symfony/expression-language (For using expression matching)
+symfony/routing suggests installing doctrine/annotations (For using the annotation loader)
+symfony/polyfill-intl-idn suggests installing ext-intl (For best performance)
+symfony/event-dispatcher-contracts suggests installing psr/event-dispatcher
+symfony/event-dispatcher suggests installing symfony/dependency-injection
+symfony/http-kernel suggests installing symfony/browser-kit
+symfony/http-kernel suggests installing symfony/config
+symfony/http-kernel suggests installing symfony/dependency-injection
+symfony/service-contracts suggests installing symfony/service-implementation
+symfony/console suggests installing symfony/lock
+egulias/email-validator suggests installing ext-intl (PHP Internationalization Libraries are required to use the SpoofChecking validation)
+swiftmailer/swiftmailer suggests installing ext-intl (Needed to support internationalized email addresses)
+swiftmailer/swiftmailer suggests installing true/punycode (Needed to support internationalized email addresses, if ext-intl is not installed)
+paragonie/random_compat suggests installing ext-libsodium (Provides a modern crypto API that can be used to generate random bytes.)
+ramsey/uuid suggests installing ext-libsodium (Provides the PECL libsodium extension for use with the SodiumRandomGenerator)
+ramsey/uuid suggests installing ext-uuid (Provides the PECL UUID extension for use with the PeclUuidTimeGenerator and PeclUuidRandomGenerator)
+ramsey/uuid suggests installing moontoast/math (Provides support for converting UUID to 128-bit integer (in string form).)
+ramsey/uuid suggests installing ramsey/uuid-console (A console application for generating UUIDs with ramsey/uuid)
+ramsey/uuid suggests installing ramsey/uuid-doctrine (Allows the use of Ramsey\Uuid\Uuid as Doctrine field type.)
+ramsey/uuid suggests installing paragonie/random-lib (Provides RandomLib for use with the RandomLibAdapter)
+symfony/translation suggests installing symfony/config
+symfony/translation suggests installing symfony/yaml
+monolog/monolog suggests installing graylog2/gelf-php (Allow sending log messages to a GrayLog2 server)
+monolog/monolog suggests installing doctrine/couchdb (Allow sending log messages to a CouchDB server)
+monolog/monolog suggests installing ruflin/elastica (Allow sending log messages to an Elastic Search server)
+monolog/monolog suggests installing elasticsearch/elasticsearch (Allow sending log messages to an Elasticsearch server via official client)
+monolog/monolog suggests installing php-amqplib/php-amqplib (Allow sending log messages to an AMQP server using php-amqplib)
+monolog/monolog suggests installing ext-amqp (Allow sending log messages to an AMQP server (1.0+ required))
+monolog/monolog suggests installing ext-mongodb (Allow sending log messages to a MongoDB server (via driver))
+monolog/monolog suggests installing mongodb/mongodb (Allow sending log messages to a MongoDB server (via library))
+monolog/monolog suggests installing aws/aws-sdk-php (Allow sending log messages to AWS services like DynamoDB)
+monolog/monolog suggests installing rollbar/rollbar (Allow sending log messages to Rollbar)
+monolog/monolog suggests installing php-console/php-console (Allow sending log messages to Google Chrome)
+league/flysystem suggests installing league/flysystem-eventable-filesystem (Allows you to use EventableFilesystem)
+league/flysystem suggests installing league/flysystem-rackspace (Allows you to use Rackspace Cloud Files)
+league/flysystem suggests installing league/flysystem-azure (Allows you to use Windows Azure Blob storage)
+league/flysystem suggests installing league/flysystem-webdav (Allows you to use WebDAV storage)
+league/flysystem suggests installing league/flysystem-aws-s3-v2 (Allows you to use S3 storage with AWS SDK v2)
+league/flysystem suggests installing league/flysystem-aws-s3-v3 (Allows you to use S3 storage with AWS SDK v3)
+league/flysystem suggests installing spatie/flysystem-dropbox (Allows you to use Dropbox storage)
+league/flysystem suggests installing srmklive/flysystem-dropbox-v2 (Allows you to use Dropbox storage for PHP 5 applications)
+league/flysystem suggests installing league/flysystem-cached-adapter (Flysystem adapter decorator for metadata caching)
+league/flysystem suggests installing league/flysystem-sftp (Allows you to use SFTP server storage via phpseclib)
+league/flysystem suggests installing league/flysystem-ziparchive (Allows you to use ZipArchive adapter)
+laravel/framework suggests installing ext-memcached (Required to use the memcache cache driver.)
+laravel/framework suggests installing ext-pcntl (Required to use all features of the queue worker.)
+laravel/framework suggests installing ext-posix (Required to use all features of the queue worker.)
+laravel/framework suggests installing ext-redis (Required to use the Redis cache and queue drivers.)
+laravel/framework suggests installing aws/aws-sdk-php (Required to use the SQS queue driver, DynamoDb failed job storage and SES mail driver (^3.0).)
+laravel/framework suggests installing doctrine/dbal (Required to rename columns and drop SQLite columns (^2.6).)
+laravel/framework suggests installing guzzlehttp/guzzle (Required to use the Mailgun mail driver and the ping methods on schedules (^6.0).)
+laravel/framework suggests installing league/flysystem-aws-s3-v3 (Required to use the Flysystem S3 driver (^1.0).)
+laravel/framework suggests installing league/flysystem-cached-adapter (Required to use the Flysystem cache (^1.0).)
+laravel/framework suggests installing league/flysystem-sftp (Required to use the Flysystem SFTP driver (^1.0).)
+laravel/framework suggests installing moontoast/math (Required to use ordered UUIDs (^1.1).)
+laravel/framework suggests installing pda/pheanstalk (Required to use the beanstalk queue driver (^4.0).)
+laravel/framework suggests installing psr/http-message (Required to allow Storage::put to accept a StreamInterface (^1.0).)
+laravel/framework suggests installing pusher/pusher-php-server (Required to use the Pusher broadcast driver (^4.0).)
+laravel/framework suggests installing symfony/cache (Required to PSR-6 cache bridge (^4.3.4).)
+laravel/framework suggests installing symfony/psr-http-message-bridge (Required to use PSR-7 bridging features (^1.2).)
+laravel/framework suggests installing wildbit/swiftmailer-postmark (Required to use Postmark mail driver (^3.0).)
+psy/psysh suggests installing ext-pcntl (Enabling the PCNTL extension makes PsySH a lot happier :))
+psy/psysh suggests installing ext-posix (If you have PCNTL, you'll want the POSIX extension as well.)
+psy/psysh suggests installing ext-pdo-sqlite (The doc command requires SQLite to work.)
+psy/psysh suggests installing hoa/console (A pure PHP readline implementation. You'll want this if your PHP install doesn't already support readline or libedit.)
+filp/whoops suggests installing whoops/soap (Formats errors as SOAP responses)
+facade/ignition suggests installing laravel/telescope (^2.0)
+sebastian/global-state suggests installing ext-uopz (*)
+sebastian/environment suggests installing ext-posix (*)
+phpunit/php-code-coverage suggests installing ext-xdebug (^2.7.2)
+phpunit/phpunit suggests installing phpunit/php-invoker (^2.0.0)
+phpunit/phpunit suggests installing ext-soap (*)
+phpunit/phpunit suggests installing ext-xdebug (*)
+Writing lock file
+Generating optimized autoload files
+> Illuminate\Foundation\ComposerScripts::postAutoloadDump
+> @php artisan package:discover --ansi
+Discovered Package: facade/ignition
+Discovered Package: fideloper/proxy
+Discovered Package: laravel/tinker
+Discovered Package: nesbot/carbon
+Discovered Package: nunomaduro/collision
+Package manifest generated successfully.
+> @php artisan key:generate --ansi
+Application key set successfully.
+
+C:\xampp\htdocs>php artisan serve
+Could not open input file: artisan
+
+C:\xampp\htdocs>cd absensi
+
+C:\xampp\htdocs\absensi>php artisan serve
+Laravel development server started: http://127.0.0.1:8000
+[Mon Dec 23 13:38:02 2019] 127.0.0.1:62715 [200]: /favicon.ico
+[Mon Dec 23 13:46:16 2019] 127.0.0.1:62735 [200]: /favicon.ico
+[Mon Dec 23 13:49:37 2019] 127.0.0.1:62740 [200]: /favicon.ico
+^C
+C:\xampp\htdocs\absensi>php artisan make:migration create_absensi_table
+Created Migration: 2019_12_23_070110_create_absensi_table
+
+C:\xampp\htdocs\absensi>php artisan migrate
+Migration table created successfully.
+Migrating: 2014_10_12_000000_create_users_table
+Migrated:  2014_10_12_000000_create_users_table (0.37 seconds)
+Migrating: 2014_10_12_100000_create_password_resets_table
+Migrated:  2014_10_12_100000_create_password_resets_table (0.38 seconds)
+Migrating: 2019_08_19_000000_create_failed_jobs_table
+Migrated:  2019_08_19_000000_create_failed_jobs_table (0.38 seconds)
+Migrating: 2019_12_23_070110_create_absensi_table
+Migrated:  2019_12_23_070110_create_absensi_table (0.2 seconds)
+
+C:\xampp\htdocs\absensi>php artisan make:migration create_karyawan_table
+Created Migration: 2019_12_23_072437_create_karyawan_table
+
+C:\xampp\htdocs\absensi>php artisan migrate
+Migrating: 2019_12_23_072437_create_karyawan_table
+Migrated:  2019_12_23_072437_create_karyawan_table (0.25 seconds)
+
+C:\xampp\htdocs\absensi>php artisan migrate
+Nothing to migrate.
+
+C:\xampp\htdocs\absensi>php artisan serve
+Laravel development server started: http://127.0.0.1:8000
+^C
+C:\xampp\htdocs\absensi>php artisan make:migration create_jabatan_table
+Created Migration: 2019_12_23_075747_create_jabatan_table
+
+C:\xampp\htdocs\absensi>php artisan migrate
+Migrating: 2019_12_23_075747_create_jabatan_table
+Migrated:  2019_12_23_075747_create_jabatan_table (0.24 seconds)
+
+C:\xampp\htdocs\absensi>
